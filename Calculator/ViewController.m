@@ -76,7 +76,10 @@
     } else {
         self.topDisplay.text = [self.topDisplay.text stringByAppendingString:operation];
         self.topDisplay.text = [self.topDisplay.text stringByAppendingString:@" "];
+        self.topDisplay.text = [self.topDisplay.text stringByAppendingString:@"="];
+        self.topDisplay.text = [self.topDisplay.text stringByAppendingString:@" "];
     }
+    
     double result = [self.brain performOperation:operation];
     self.display.text = [NSString stringWithFormat:@"%g", result];
 }
