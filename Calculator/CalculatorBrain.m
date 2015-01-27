@@ -60,8 +60,7 @@
         _operandStack = [[NSMutableArray alloc] init];
     } else if ([operation isEqualToString:@"π"]) {
         result = M_PI;
-        NSNumber *numberPI = [NSNumber numberWithDouble:result];
-        [self.operandStack addObject:numberPI];
+        
     }
     
     [self pushOperand:result];
