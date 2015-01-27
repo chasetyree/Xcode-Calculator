@@ -58,6 +58,10 @@
         result = sqrt([self popOperand]);
     } else if ([operation isEqualToString:@"Clear"]) {
         _operandStack = [[NSMutableArray alloc] init];
+    } else if ([operation isEqualToString:@"π"]) {
+        result = M_PI;
+        NSNumber *numberPI = [NSNumber numberWithDouble:result];
+        [self.operandStack addObject:numberPI];
     }
     
     [self pushOperand:result];

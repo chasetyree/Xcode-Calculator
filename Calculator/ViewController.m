@@ -18,6 +18,7 @@
 @implementation ViewController
 
 @synthesize display;
+@synthesize topDisplay;
 @synthesize userIsInTheMiddleOfEnteringANumber;
 @synthesize hasPeriodBeenPressed;
 @synthesize brain = _brain;
@@ -35,19 +36,23 @@
 
             } else {
                 self.display.text = [self.display.text stringByAppendingString:digit];
+                self.topDisplay.text = [self.topDisplay.text stringByAppendingString:digit];
                 self.hasPeriodBeenPressed = YES;
             }
         } else {
         
+        self.topDisplay.text = [self.topDisplay.text stringByAppendingString:digit];
         self.display.text = [self.display.text stringByAppendingString:digit];
         }
     } else {
         if ([digit isEqualToString:@"."]) {
             self.display.text = digit;
+            self.topDisplay.text = [self.topDisplay.text stringByAppendingString:digit];
             self.hasPeriodBeenPressed = YES;
             self.userIsInTheMiddleOfEnteringANumber = YES;
         } else {
             self.display.text = digit;
+            self.topDisplay.text = [self.topDisplay.text stringByAppendingString:digit];
             self.userIsInTheMiddleOfEnteringANumber = YES;
         }
     }
@@ -56,6 +61,7 @@
 
 - (IBAction)enterPressed {
     [self.brain pushOperand:[self.display.text doubleValue]];
+    self.topDisplay.text = [self.topDisplay.text stringByAppendingString:@" "];
     self.userIsInTheMiddleOfEnteringANumber = NO;
     self.hasPeriodBeenPressed = NO;
 }
@@ -65,6 +71,12 @@
         [self enterPressed];
     }
     NSString *operation = [sender currentTitle];
+    if ([operation isEqualToString:@"Clear"]){
+        self.topDisplay.text = @" ";
+    } else {
+        self.topDisplay.text = [self.topDisplay.text stringByAppendingString:operation];
+        self.topDisplay.text = [self.topDisplay.text stringByAppendingString:@" "];
+    }
     double result = [self.brain performOperation:operation];
     self.display.text = [NSString stringWithFormat:@"%g", result];
 }
