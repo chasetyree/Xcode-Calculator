@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1635EA9B1A8E7F5E000A8270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EA8F1A8E7F5E000A8270 /* AppDelegate.m */; };
+		1635EA9C1A8E7F5E000A8270 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1635EA901A8E7F5E000A8270 /* LaunchScreen.xib */; };
+		1635EA9D1A8E7F5E000A8270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1635EA921A8E7F5E000A8270 /* Main.storyboard */; };
+		1635EA9E1A8E7F5E000A8270 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EA951A8E7F5E000A8270 /* CalculatorBrain.m */; };
+		1635EA9F1A8E7F5E000A8270 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635EA961A8E7F5E000A8270 /* Images.xcassets */; };
+		1635EAA01A8E7F5E000A8270 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1635EA971A8E7F5E000A8270 /* Info.plist */; };
+		1635EAA11A8E7F5E000A8270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EA981A8E7F5E000A8270 /* main.m */; };
+		1635EAA21A8E7F5E000A8270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EA9A1A8E7F5E000A8270 /* ViewController.m */; };
+		1635EAAC1A8E83C7000A8270 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EAAB1A8E83C7000A8270 /* GraphViewController.m */; };
+		1635EAAF1A8E8519000A8270 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EAAE1A8E8519000A8270 /* GraphView.m */; };
+		1635EAB21A8E9D07000A8270 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635EAB11A8E9D07000A8270 /* AxesDrawer.m */; };
 		165F2BD11A685AF400CF4837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165F2BD01A685AF400CF4837 /* main.m */; };
 		165F2BD41A685AF400CF4837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165F2BD31A685AF400CF4837 /* AppDelegate.m */; };
 		165F2BD71A685AF400CF4837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165F2BD61A685AF400CF4837 /* ViewController.m */; };
@@ -28,6 +39,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1635EA8E1A8E7F5E000A8270 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1635EA8F1A8E7F5E000A8270 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1635EA911A8E7F5E000A8270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1635EA931A8E7F5E000A8270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1635EA941A8E7F5E000A8270 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		1635EA951A8E7F5E000A8270 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		1635EA961A8E7F5E000A8270 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1635EA971A8E7F5E000A8270 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1635EA981A8E7F5E000A8270 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1635EA991A8E7F5E000A8270 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1635EA9A1A8E7F5E000A8270 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1635EAAA1A8E83C7000A8270 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		1635EAAB1A8E83C7000A8270 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		1635EAAD1A8E8519000A8270 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		1635EAAE1A8E8519000A8270 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		1635EAB01A8E9D07000A8270 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		1635EAB11A8E9D07000A8270 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
 		165F2BCB1A685AF400CF4837 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165F2BCF1A685AF400CF4837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165F2BD01A685AF400CF4837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,9 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1635EA8D1A8E7F5E000A8270 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1635EA8E1A8E7F5E000A8270 /* AppDelegate.h */,
+				1635EA8F1A8E7F5E000A8270 /* AppDelegate.m */,
+				1635EA901A8E7F5E000A8270 /* LaunchScreen.xib */,
+				1635EA921A8E7F5E000A8270 /* Main.storyboard */,
+				1635EA941A8E7F5E000A8270 /* CalculatorBrain.h */,
+				1635EA951A8E7F5E000A8270 /* CalculatorBrain.m */,
+				1635EA961A8E7F5E000A8270 /* Images.xcassets */,
+				1635EA971A8E7F5E000A8270 /* Info.plist */,
+				1635EA981A8E7F5E000A8270 /* main.m */,
+				1635EA991A8E7F5E000A8270 /* ViewController.h */,
+				1635EA9A1A8E7F5E000A8270 /* ViewController.m */,
+				1635EAAA1A8E83C7000A8270 /* GraphViewController.h */,
+				1635EAAB1A8E83C7000A8270 /* GraphViewController.m */,
+				1635EAAD1A8E8519000A8270 /* GraphView.h */,
+				1635EAAE1A8E8519000A8270 /* GraphView.m */,
+				1635EAB01A8E9D07000A8270 /* AxesDrawer.h */,
+				1635EAB11A8E9D07000A8270 /* AxesDrawer.m */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
 		165F2BC21A685AF400CF4837 = {
 			isa = PBXGroup;
 			children = (
+				1635EA8D1A8E7F5E000A8270 /* Calculator */,
 				165F2BCD1A685AF400CF4837 /* Calculator */,
 				165F2BE71A685AF500CF4837 /* CalculatorTests */,
 				165F2BCC1A685AF400CF4837 /* Products */,
@@ -204,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1635EA9C1A8E7F5E000A8270 /* LaunchScreen.xib in Resources */,
+				1635EA9D1A8E7F5E000A8270 /* Main.storyboard in Resources */,
 				165F2BDA1A685AF400CF4837 /* Main.storyboard in Resources */,
+				1635EA9F1A8E7F5E000A8270 /* Images.xcassets in Resources */,
 				165F2BDF1A685AF400CF4837 /* LaunchScreen.xib in Resources */,
 				165F2BDC1A685AF400CF4837 /* Images.xcassets in Resources */,
+				1635EAA01A8E7F5E000A8270 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1635EAA21A8E7F5E000A8270 /* ViewController.m in Sources */,
+				1635EAB21A8E9D07000A8270 /* AxesDrawer.m in Sources */,
+				1635EAAF1A8E8519000A8270 /* GraphView.m in Sources */,
 				165F2BD71A685AF400CF4837 /* ViewController.m in Sources */,
 				165F2BD41A685AF400CF4837 /* AppDelegate.m in Sources */,
+				1635EA9B1A8E7F5E000A8270 /* AppDelegate.m in Sources */,
 				1666626B1A69926900068A9C /* CalculatorBrain.m in Sources */,
+				1635EAAC1A8E83C7000A8270 /* GraphViewController.m in Sources */,
+				1635EA9E1A8E7F5E000A8270 /* CalculatorBrain.m in Sources */,
+				1635EAA11A8E7F5E000A8270 /* main.m in Sources */,
 				165F2BD11A685AF400CF4837 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +314,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1635EA901A8E7F5E000A8270 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635EA911A8E7F5E000A8270 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1635EA921A8E7F5E000A8270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635EA931A8E7F5E000A8270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		165F2BD81A685AF400CF4837 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
