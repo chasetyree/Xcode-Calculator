@@ -25,10 +25,10 @@
     return _operandStack;
 }
 
-/*- (NSMutableArray *)programStack {
+- (NSMutableArray *)programStack {
     if (_programStack == nil) _programStack = [[NSMutableArray alloc] init];
     return _programStack;
-}*/
+}
 
 + (NSString *)descriptionOfProgram:(id)program {
     
