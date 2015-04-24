@@ -120,23 +120,19 @@
     self.display.text = [NSString stringWithFormat:@"%g", result];
 }
 
-/*- (IBAction)variablePressed:(UIButton *)sender {
-    
-    // push variable and updateView
-    
+- (IBAction)variablePressed:(UIButton *)sender {
     [self.brain pushVariable:sender.currentTitle];
     [self updateView];
-}*/
+}
 
-/*- (IBAction)drawGraphPressed {
-    
+- (IBAction)drawGraphPressed {
     if ([self graphViewController]) {
         [[self graphViewController] setProgram:self.brain.program];
         [[self graphViewController] refreshView ];
     } else {
         [self performSegueWithIdentifier:@"DisplayGraphView" sender:self];
     }
-}*/
+}
 
 //- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 //    [segue.destinationViewController setProgram:self.brain.program];
